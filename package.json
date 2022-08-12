@@ -1,0 +1,19 @@
+{
+  "name": "jsonstrom",
+  "version": "0.1.0",
+  "description": "Streaming JSON file reader library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldoy/jsonstrom"
+  },
+  "author": "Vidar Eldøy <vidar@eldoy.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "stream-chain": "^2.2.5",
+    "stream-json": "^1.7.4"
+  }
+}
